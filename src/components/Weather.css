@@ -1,0 +1,79 @@
+.weather-container {
+  padding: 3rem 2rem;
+  background: rgba(128, 128, 128, 0.654);
+  border-radius: 10px;
+  width: 30vw;
+  position: relative;
+}
+
+/* //////////////////////////////////////////// */
+/* City Input */
+.input-container {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  border: none;
+  outline: none;
+  width: 22vw;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn {
+  position: absolute;
+  right: 5.9rem;
+  top: 3.5rem;
+  height: 2.3rem;
+  width: 3rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+/* //////////////////////////////////////////// */
+/* Weather-Information */
+.info-container {
+  /* border: 2px solid black; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.city-name,
+.wind {
+  font-size: 1.6rem;
+}
+.temp {
+  font-size: 3rem;
+  margin: 6px;
+  /* text-decoration: underline; */
+  font-weight: bolder;
+}
+
+.weather-condition {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 6px;
+}
+
+.temp-range {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/*Message*/
+
+.msg {
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
